@@ -1,0 +1,13 @@
+---
+- ppa: fish-shell/release-3
+  packages:
+    - fish
+- ppa: neovim-ppa/stable
+  packages:
+    - neovim
+- ppa: deadsnakes/ppa
+  packages:
+    - python3.7
+- ppa: git-core/ppa
+  packages:
+    - git
