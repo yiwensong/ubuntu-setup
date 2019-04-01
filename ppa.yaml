@@ -1,4 +1,7 @@
 ---
+- ppa: default
+  packages:
+    - curl
 - ppa: fish-shell/release-3
   packages:
     - fish
