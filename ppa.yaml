@@ -2,6 +2,8 @@
 - ppa: default
   packages:
     - curl
+    - libevent-dev
+    - libncurses-dev
 - ppa: fish-shell/release-3
   packages:
     - fish
