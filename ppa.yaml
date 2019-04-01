@@ -1,7 +1,9 @@
 ---
 - ppa: default
   packages:
+    # We need curl to set stuff up... also it's nice to have
     - curl
+    # For installing tmux
     - libevent-dev
     - libncurses-dev
 - ppa: fish-shell/release-3
