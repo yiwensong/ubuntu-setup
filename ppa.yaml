@@ -11,3 +11,8 @@
 - ppa: git-core/ppa
   packages:
     - git
+- ppa: pi-rho/dev
+  packages:
+    - python-software-properties
+    - software-properties-common
+    - vim-gtk
