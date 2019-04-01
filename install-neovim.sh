@@ -1,4 +1,4 @@
 #!/bin/sh
-sudo add-apt-repository ppa:neovim-ppa/stable
-sudo apt-get update
-sudo apt-get install neovim
+add-apt-repository ppa:neovim-ppa/stable
+apt-get update
+apt-get install neovim
