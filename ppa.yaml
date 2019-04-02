@@ -6,6 +6,8 @@
     # For installing tmux
     - libevent-dev
     - libncurses-dev
+    # Python virtualenv
+    - python3-virtualenv
 - ppa: fish-shell/release-3
   packages:
     - fish
