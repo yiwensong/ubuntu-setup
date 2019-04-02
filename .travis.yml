@@ -1,0 +1,12 @@
+sudo: false
+language: python
+cache: pip
+python:
+  - '3.6'
+script:
+  - true
+deploy:
+  provider: pypi
+  user: yiwensong
+  on:
+    tags: true
