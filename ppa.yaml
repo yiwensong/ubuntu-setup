@@ -8,8 +8,8 @@
     - libncurses-dev
     # Python virtualenv
     - python3-virtualenv
-    # Travis deployment tools
-    - travis
+    # Gem for ruby stuff
+    - ruby-dev
 - ppa: fish-shell/release-3
   packages:
     - fish
