@@ -2,11 +2,13 @@ sudo: false
 language: python
 cache: pip
 python:
-  - '3.6'
+- '3.6'
 script:
-  - true
+- true
 deploy:
   provider: pypi
   user: yiwensong
   on:
     tags: true
+  password:
+    secure: OIxV6rL5rg5+RiZa2oLBcc6mGv2XuZJ/Fl8bVD4uqCs+mTKajYYu46vQ6xdbXGu5Hy8ao/WaG8Dhv4y6HdfumpSUxB5uG2XIeRe2BwgHNQ6mShlMya7yOOY7q9hPQopETLqbVgYeR6DWOwEPMu666MbxSGBuEX3PXQrkKUniNxX+G3CQJBUQuTtbxOzRDVISIvekTN5RQvBt89lakT6qLVV2zKfUoscmoOvJ5i7c4gtcIOZjT+dGU/nZ5UzKNsMctkh1S7YdvlIHVzj4cwnteoLgsjAMVgkfLVmEumijYqgj/3vJarHB9eQVSlw1lbnCZYRmIk8IE/5JKm3oVARdc3s60dorMklmL0rkbsiovwFMChC9B96a1vkTi3pTATpibPvYwlEFwQVduZD1qLX8Ta9luvbfQKMK9ZEYNnNGZSj9RTHVAJ04U7w1vv9MWeDOUPGKPPVV4LmM26x3v2NFQ+Nw4pUN28A91ho7LD0c8aj+3n/IEesOtwDhHcLrATo3/hTh+0KDD8JXfyePC+NDcR7wL7viXONrN+9ejVNPIeNsNFDXvQnxo+7lq8iD3f9GCrHdBSwEjT2YqEXVB4Nk9OBcthzInABjojhuPKKFonNKhAVyKHUIEIZ6bu6Fu9C93tqxxICcwaioAtpg6u/jILO7OF8cjsvPAzxZtWb32DA=
