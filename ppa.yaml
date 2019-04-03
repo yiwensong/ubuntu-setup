@@ -8,6 +8,8 @@
     - libncurses-dev
     # Python virtualenv
     - python3-virtualenv
+    - python-dev
+    - python3-dev
     # Gem for ruby stuff
     - ruby-dev
 - ppa: fish-shell/release-3
@@ -18,7 +20,8 @@
     - neovim
 - ppa: deadsnakes/ppa
   packages:
-    - python3.7
+    - python3.6-dev
+    - python3.7-dev
 - ppa: git-core/ppa
   packages:
     - git

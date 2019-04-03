@@ -16,9 +16,12 @@ apt-get install -y\
     libncurses-dev\
     neovim\
     plover\
+    python-dev\
     python-software-properties\
+    python3-dev\
     python3-virtualenv\
-    python3.7\
+    python3.6-dev\
+    python3.7-dev\
     ruby-dev\
     software-properties-common\
     vim-gtk
