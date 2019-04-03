@@ -70,7 +70,3 @@ def main():
     
     confdict = load_ppa_config(args.source)
     script = generate_script(confdict, args.output)
-
-
-if __name__ == '__main__':
-    main()
