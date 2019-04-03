@@ -17,6 +17,7 @@ apt-get install -y\
     neovim\
     plover\
     python-dev\
+    python-setuptools\
     python-software-properties\
     python3-dev\
     python3-virtualenv\

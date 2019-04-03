@@ -8,6 +8,7 @@
     - libncurses-dev
     # Python virtualenv
     - python3-virtualenv
+    - python-setuptools
     - python-dev
     - python3-dev
     # Gem for ruby stuff
