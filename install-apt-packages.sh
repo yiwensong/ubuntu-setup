@@ -5,6 +5,7 @@ apt-add-repository -y ppa:benoit.pierre/plover
 apt-add-repository -y ppa:deadsnakes/ppa
 apt-add-repository -y ppa:fish-shell/release-3
 apt-add-repository -y ppa:git-core/ppa
+apt-add-repository -y ppa:longsleep/golang-backports
 apt-add-repository -y ppa:neovim-ppa/stable
 apt-add-repository -y ppa:pi-rho/dev
 apt-get update -y
@@ -12,6 +13,8 @@ apt-get install -y\
     curl\
     fish\
     git\
+    golang-go\
+    jq\
     libevent-dev\
     libncurses-dev\
     neovim\

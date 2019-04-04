@@ -3,6 +3,8 @@
   packages:
     # We need curl to set stuff up... also it's nice to have
     - curl
+    # jq is helpful
+    - jq
     # For installing tmux
     - libevent-dev
     - libncurses-dev
@@ -34,3 +36,6 @@
 - ppa: benoit.pierre/plover
   packages:
     - plover
+- ppa: longsleep/golang-backports
+  packages:
+    - golang-go
