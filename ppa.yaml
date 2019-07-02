@@ -33,9 +33,6 @@
     - python-software-properties
     - software-properties-common
     - vim-gtk
-- ppa: benoit.pierre/plover
-  packages:
-    - plover
 - ppa: longsleep/golang-backports
   packages:
     - golang-go
